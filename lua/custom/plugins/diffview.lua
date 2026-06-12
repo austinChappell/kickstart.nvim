@@ -1,7 +1,7 @@
 return {
   'sindrets/diffview.nvim',
   dependencies = { 'nvim-lua/plenary.nvim' },
-  cmd = { 'DiffviewOpen', 'DiffviewClose', 'DiffviewToggleFiles', 'DiffviewFocusFiles', 'DiffviewFileHistory' },
+  lazy = false,
   keys = {
     { '<leader>gd', '<cmd>DiffviewOpen<cr>', desc = '[G]it [D]iff view' },
     { '<leader>gm', '<cmd>DiffviewOpen<cr>', desc = '[G]it [M]erge tool' },
